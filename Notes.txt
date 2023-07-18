@@ -12,3 +12,5 @@ The problem might end up being easier to solve this way, we actually might not n
 
 I'll try to argue that instead of needing X, Y, and Z features, 
 we'll be able to classify the movement using only the X feature and the number of readings.
+
+* The calculations for std in the train.csv are different from doing the calculations on the raw data.
