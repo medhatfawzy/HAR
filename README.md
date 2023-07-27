@@ -2,7 +2,7 @@
 In this repository, we present the work done on the HAR dataset.
 There're four notebook for each stage in the development.
 
-## 1.Aggregating Data
+## 1. Aggregating Data
 In this notebook, we concatenate the data from multiple files and create a single dataframe to combine them all. The dataframe is then saved into a parquet file to speed up any reading operations later in the pipeline.
 
 While aggregating the files, we realized that there are duplicate column names. We modified the original file that had the names of the features to fix this issue.
